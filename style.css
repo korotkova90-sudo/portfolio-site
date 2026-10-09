@@ -437,6 +437,8 @@
   .m-blocks{ margin-top:26px; display:grid; gap:18px; }
   .m-block h4{ font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:500; color:var(--ink-soft); margin-bottom:4px; }
   .m-block p{ font-size:15px; line-height:1.55; max-width:560px; }
+  .m-block p a{ color:var(--ink); text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
+  .m-block p a:hover{ opacity:.7; }
   .m-insight{ border-left:3px solid #B7B3FF; padding-left:14px; font-weight:500; }
   .m-passport{ align-self:start; margin-top:44px; padding:20px; border-radius:20px; background:rgba(255,255,255,0.55); border:1px solid rgba(255,255,255,0.8); display:grid; gap:14px; }
   .m-passport h4{ font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:500; color:var(--ink-soft); }
